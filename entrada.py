@@ -5,7 +5,7 @@ class Entrada:
         self.__asiento = asiento
 
     def mostrar_datos(self):
-        pass
+        print(f"Numero: {self.__numero} asiento: {self.__asiento}")
 
     def es_asiento_valido(self):
         pass

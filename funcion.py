@@ -6,7 +6,8 @@ class Funcion:
         self.__precio = precio
 
     def mostrar_datos(self):
-        pass
+        return f"fecha {self.__fecha} - hora {self.__hora} - precio {self.__precio}"
 
     def es_funcion_nocturna(self):
-        pass
+        hora = int(self.__hora.split((":")[0]))
+        return hora >= 20

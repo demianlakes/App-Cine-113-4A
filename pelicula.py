@@ -6,4 +6,4 @@ class Pelicula:
         self.__duracion = duracion
 
     def mostrar_datos(self):
-        pass
+        return f"titulo {self.__titulo} - genero {self.__genero} - duracion {self.__duracion}"
